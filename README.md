@@ -5,13 +5,9 @@
 
 # Estudo da Cobertura Vacinal (Data Science Aplicada 2: Projeto 2)
 
+---
+# 1) Introdução 
 
----
-# Estudo
-
----
-# 1) Introdução
----
 
 Neste notebook será estuda a **Cobertura Vacinal** desde de **1995** a **2018** da vacina **BCG** no Brasil. Vacina BCG previne contra as formas graves da tuberculose, como a meningite tuberculosa e a tuberculose miliar [[1]](http://blog.saude.mg.gov.br/2019/07/02/bcg-tire-suas-duvidas-sobre-essa-vacina/). Os dados foram retirados do [DATASUS-Tabnet [2]](http://tabnet.datasus.gov.br/cgi/tabcgi.exe?pni/cnv/cpniuf.def) por região.
 
@@ -73,10 +69,15 @@ Os dados estão dividos em duas pastas:
 
 > * [Dados brutos](https://github.com/HenriqueCCdA/BC_DS_Projeto2/tree/main/Dados/Bruto) - Estes dados foram retirados diretamente do [DATASUS](http://tabnet.datasus.gov.br/cgi/tabcgi.exe?pni/cnv/cpniuf.def) sem nenhuma tratamento.
 
-> * [Dados tratados](BC_DS_Projeto2/Dados/Tratados/) - Os dados aqui são os dados brutos tratados e prontos para usar no notebook de analise.
+> * [Dados tratados](https://github.com/HenriqueCCdA/BC_DS_Projeto2/Dados/Tratados/) - Os dados aqui são os dados brutos tratados e prontos para usar no notebook de analise.
 
 
 Os notebooks foram dividos em dois tipo: os exploratorios e de explanatorios.
+
+O notebook explanatorio é onde a analise propriamente é feita. O notebook é:
+
+> * [analise_bcg_cobertura_vacinal.ipynb](https://github.com/HenriqueCCdA/BC_DS_Projeto2/blob/main/Notebooks/Explanatorios/analise_bcg_cobertura_vacinal.ipynb) -  Neste notebook é feito a analise da **Cobertura Vacinal** da **BCG**. 
+
 
 Os notebooks explaratorios tem tem como o objetivo ser um primeiro contanto e a seleção dos dados que serão utilizados. Os notebooks exploratorios são:
 
@@ -84,8 +85,5 @@ Os notebooks explaratorios tem tem como o objetivo ser um primeiro contanto e a 
 
 > * [limpando_os_dados.ipynb](https://github.com/HenriqueCCdA/BC_DS_Projeto2/blob/main/Notebooks/Exploratorios/limpando_os_dados.ipynb) - Neste notebook é uma limpeza e seleção de dados que serão utilizados. E gerado o arquivo [bcg.csv](https://github.com/HenriqueCCdA/BC_DS_Projeto2/blob/main/Dados/Tratados/bcg.csv)
 
-Os notebooks explanatorio são onde a analise propriamente é feita. O notebook é:
-
-> * [analise_bcg_cobertura_vacinal](https://github.com/HenriqueCCdA/BC_DS_Projeto2/blob/main/Notebooks/Explanatorios/analise_bcg_cobertura_vacinal.ipynb) -  Neste notebook é feito a analise da **Cobertura Vacinal** da **BCG**. 
 
 [<img src="https://img.shields.io/badge/mail-EA4335?style=flat-square&logo=Gmail&logoColor=white" />](henrique.ccda@gmail.com)
