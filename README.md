@@ -69,7 +69,7 @@ Os dados estão dividos em duas pastas:
 
 > * [Dados brutos](https://github.com/HenriqueCCdA/BC_DS_Projeto2/tree/main/Dados/Bruto) - Estes dados foram retirados diretamente do [DATASUS](http://tabnet.datasus.gov.br/cgi/tabcgi.exe?pni/cnv/cpniuf.def) sem nenhuma tratamento.
 
-> * [Dados tratados](https://github.com/HenriqueCCdA/BC_DS_Projeto2/Dados/Tratados/) - Os dados aqui são os dados brutos tratados e prontos para usar no notebook de analise.
+> * [Dados tratados](https://github.com/HenriqueCCdA/BC_DS_Projeto2/tree/main/Dados/Tratados) - Os dados aqui são os dados brutos tratados e prontos para usar no notebook de analise.
 
 
 Os notebooks foram dividos em dois tipo: os exploratorios e de explanatorios.
