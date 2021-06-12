@@ -3,10 +3,10 @@
 
 ![](https://play-lh.googleusercontent.com/E5OY3A9Nf-XieZN5Ah6KfPIDbFpLR_j5fFOLbl-aYDrRiFAvensqRJjZpWFRA_yyNg)
 
-# Estudo da Cobertura Vacinal (Bootcamp: Data Science Aplicada 2: Projeto 2)
+# Estudo da Cobertura Vacinal (Data Science Aplicada 2: Projeto 2)
 
 ---
-## Estrututa do Repositorio
+# Estrututa do Repositorio
 
 Os dados estão dividos em duas pastas: 
 
@@ -34,43 +34,49 @@ Os notebooks explanatorio são onde a analise propriamente é feita. O notebook 
 
 ---
 # 1) Introdução
+---
 
-Neste notebook será estuda a cobertura vacinal desde de **1995** a **2018** no pais da Vacina **BCG**. Vacina BCG previne contra as formas graves da tuberculose, como a meningite tuberculosa e a tuberculose miliar [[1]](http://blog.saude.mg.gov.br/2019/07/02/bcg-tire-suas-duvidas-sobre-essa-vacina/). Os dados foram retirados do [DATASUS-Tabnet [2]](http://tabnet.datasus.gov.br/cgi/tabcgi.exe?pni/cnv/cpniuf.def) por região do Brasil.
+Neste notebook será estuda a **Cobertura Vacinal** desde de **1995** a **2018** da vacina **BCG** no Brasil. Vacina BCG previne contra as formas graves da tuberculose, como a meningite tuberculosa e a tuberculose miliar [[1]](http://blog.saude.mg.gov.br/2019/07/02/bcg-tire-suas-duvidas-sobre-essa-vacina/). Os dados foram retirados do [DATASUS-Tabnet [2]](http://tabnet.datasus.gov.br/cgi/tabcgi.exe?pni/cnv/cpniuf.def) por região.
 
-A metrica utilizada para avaliar a vacinação no Brasil é a **Cobertura Vacinal**. Este número é calculado pela A fórmula de **cálculo da cobertura** é o **número de doses** aplicadas da dose indicada (1ª, 2ª, 3ª dose ou dose única, conforme a vacina) dividida pela **população alvo**, **multiplicado por 100** [[3]](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf). A **Cobertura Vacinal** tenta ser um indicativo da porcentacem para população alvo vacina.
+A metrica utilizada para avaliar a vacinação no Brasil é a **Cobertura Vacinal**. A fórmula de **Cálculo da Cobertura** é o **número de doses** aplicadas da dose indicada (1ª, 2ª, 3ª dose ou dose única, conforme a vacina) dividida pela **população alvo**, **multiplicado por 100** [[3]](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf). A **Cobertura Vacinal** tenta ser um indicativo da porcentacem para população alvo vacina.
 
-Os dados de 2019 e 2020 ainda não forram consolidade na base de dados, por isso não estão presentes na análise.
+Os dados de 2019 e 2020 ainda não foram consolidas na base de dados, por isso não estão presentes na análise.
 
 ## 1.1) Motivação
 
-O Brasil sempre foi conhecio pela sua excelente cobertura de vacinas passibilitade pelo maior sistema de saúde público do mundo. Porém nos ultimos anos e comum ver noticias na impressa que o indices de vacinação no Brasil vem caindo nos ultimos anos. Neste trabalho tentaremos ver algum indicios disso no dados
+O Brasil sempre foi conhecio pela sua excelente cobertura de vacinas possibilita pelo maior sistema de saúde público do mundo. Porém nos ultimos anos e comum ver noticias na impressa que o indices de vacinação no Brasil vem caindo nos ultimos anos. Neste trabalho tentaremos ver algum indícios disso nos dados
 
 ## 1.2) Objetivos
 
-* Verifica se realmente a indicios da queda da cobertura vacinal nos ultimos anos
-* Analisar verificar a ditribuição de vacinação por região
+* Verificar se realmente a indícios da queda da **Cobertura Vacinal** nos ultimos anos
+* Verificar a ditribuição de vacinação por região
 
 ## 1.3) Metodologia
 
-Analisar os dados de **cobertura vacinal** na regiões Sudeste, Sul, Norte, Nordeste e Centro-Oeste no perido de **1995** a **2018**.
+Analisar os dados de **Cobertura Vacinal** na regiões Sudeste, Sul, Norte, Nordeste e Centro-Oeste no periodo de **1995** a **2018**.
 
 ---
-
 # 2) Analise
+---
 
 ![GrafLinha](https://github.com/HenriqueCCdA/BC_DS_Projeto2/blob/e8edd7e043e1b13146d1045bbd2cb4395086fa4d/Fig/Geradas/BCG_linha.png)
 
+> O gráfico mostra a cobertura vacinal por região no periodo de **1995 a 2018**. A primeira coisa que chama atenção é que muitos valores estão **acima de 100%** (curva tracejada preta horizontal) o que indica que os valores de **Cobertura Vacinal** devem esta superestimados. Isto provavelemente é uma limitação da metodologia utilizada. Uma fonte da incuracia pode ser as estimativa da população alvo utitilizada para o cálculo **Cobertura Vacinal**. Porém o ponto mais importante é a **queda** da **Cobertura Vacional** a partir de **2016** (curva tracejada vermelha vertical). A queda aconteceu em todas as regiões, isso indica que é uma problema do sistema de saúde de uma forma geral. 
+
 ![GrafBar](https://github.com/HenriqueCCdA/BC_DS_Projeto2/blob/main/Fig/Geradas/BCG_bar.png)
+
+> O gráfico mostra a **Cobertura Vacional** por **região** nos anos de **2000**, **2010**, **2015** e **2018**. Aqui vemos melhor ainda como os resultados de **2018** estão bem abaixo dos anos anteriores.
+
 
 ---
 # 3) Conclusões
 ---
 
-A ditribuição entre os estado da cobertura vacinal de **BCG** para ser bem uniforme não parecendo haver diferença sistematica. 
+A distribuição entre os estado da cobertura vacinal de **BCG** é bem uniforme não parecendo haver diferença sistematica entre os estados. 
 
-Apartir de **2016** o porcentatual de vacinação parenta **cair** em todos os Estados. Isso pode indicar que um fenomeno generalizado do sistema de saúde do Brasil. O que corrobora a informações apresentado na imprenssa.
+A partir de **2016** o porcentatual de vacinação parenta **cair** em todas as Regiões. Isso pode indicar que um fenomeno generalizado do sistema de saúde brasileiro. O que corrobora a informações apresentado na imprenssa sobre a queda da **Cobertura Vacinal** no ultimos anos.
 
-Nesse estudo só voi analisada a cobertura da vacina **BCG**
+Nesse estudo só foi analisada a cobertura da vacina **BCG** em estudos futuros pode-se verificar os outros imunizantes.
 
 ---
 # 6) Referências
