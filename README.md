@@ -20,7 +20,7 @@ O Brasil sempre foi conhecio pela sua excelente cobertura de vacinas possibilita
 
 ## 1.2) Objetivos
 
-* Verificar se realmente a indícios da queda da *Cobertura Vacinal** nos últimos anos
+* Verificar se realmente a indícios da queda da ``Cobertura Vacinal`` nos últimos anos
 * Verificar a distribuição de vacinação por região
 
 ## 1.3) Metodologia
