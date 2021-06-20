@@ -10,7 +10,7 @@
 
 Neste notebook será estudo a ``Cobertura Vacinal`` desde de ``1995`` a ``2018`` da vacina ``BCG`` no Brasil. A vacina BCG previne contra as formas graves da tuberculose, como a meningite tuberculosa e a tuberculose miliar [[1]](http://blog.saude.mg.gov.br/2019/07/02/bcg-tire-suas-duvidas-sobre-essa-vacina/). Os dados foram retirados do [DATASUS-Tabnet [2]](http://tabnet.datasus.gov.br/cgi/tabcgi.exe?pni/cnv/cpniuf.def) por região.
 
-A métrica utilizada para avaliar a vacinação no Brasil é a ``Cobertura Vacinal``. A fórmula de ``Cálculo da Cobertura`` é o ``número de doses`` aplicadas da dose indicada (1ª, 2ª, 3ª dose ou dose única, conforme a vacina) dividida pela ``*população alvo``, ``multiplicado por 100`` [[3]](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf). A ``Cobertura Vacinal`` tenta ser um indicativo da porcentacem para população alvo vacina.
+A métrica utilizada para avaliar a vacinação no Brasil é a ``Cobertura Vacinal``. A fórmula de ``Cálculo da Cobertura`` é o ``número de doses`` aplicadas da dose indicada (1ª, 2ª, 3ª dose ou dose única, conforme a vacina) dividida pela ``população alvo``, ``multiplicado por 100`` [[3]](http://tabnet.datasus.gov.br/cgi/pni/Imun_cobertura_desde_1994.pdf). A ``Cobertura Vacinal`` tenta ser um indicativo da porcentacem para população alvo vacina.
 
 Os dados de 2019 e 2020 ainda não foram consolidas na base de dados, por isso não estão presentes na análise.
 
